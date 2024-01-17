@@ -1,0 +1,123 @@
+
+.user-page{
+  background-color: #FFF;
+  min-height: 100%;
+  .login-btn{
+    position: fixed;
+    border: none;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 300px;
+    // height: 100vh;
+    z-index: 5;
+  }
+  .top{
+    color: #FFF;
+    height: 300px;
+    padding-bottom: 60px;
+    background: url('http://loseweight.onbetter.cn/image/user/user-bg.png');
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .user-area{
+      height: 120px;
+      padding: 0 40px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      .left-area{
+        display: flex;
+        flex-direction: row;
+        .user-pic{
+          width: 120px;
+          background-color: #FFF;
+          border-radius: 120px;
+          overflow: hidden;
+          .Image{
+            width: 120px;
+            height: 120px;
+          }
+        }
+        .user-info{
+          display: block;
+          margin-left: 40px;
+          .name{
+            font-size: 40px;
+            font-weight: bold;
+            line-height: 40px;
+            margin: 20px 0;
+          }
+        }
+      }
+      .right-area{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .right-Image{
+          width: 52px;
+          height: 52px;
+        }
+      }
+    }
+  }
+  .mid-area{
+    padding: 0 40px;
+    color: #333;
+    .window{
+      height: 120px;
+      margin-top: -60px;
+      background-color: #FFF;
+      box-shadow: 0 8px 8px 0 rgba(173,179,191,0.3);
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      .item{
+        text-align: center;
+        font-size: 28px;
+        .num{
+          font-size: 48px;
+          margin: 2px 0 14px;
+        }
+      }
+    }
+  }
+  .menu-list{
+    padding: 40px 0;
+    .item{
+      position: relative;
+      background-color: #FFF;
+      border-bottom: 1PX solid #D6E4EF;
+      display: flex;
+      justify-content: space-between;
+      padding: 30px 40px 26px;
+      .text{
+        font-size: 32px;
+        line-height: 32px;
+        height: 32px;
+        flex: 1 0 auto;
+        display: flex;
+        .infor{
+          color: #888;
+          font-size: 24px;
+          line-height: 24px;
+          height: 24px;
+          margin: 4px 0 0 8px;
+        }
+        .contact{
+          margin: 0;
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          border: none;
+        }
+      }
+      .menu-Image{
+        width: 32px;
+        height: 32px;
+      }
+    }
+  }
+}

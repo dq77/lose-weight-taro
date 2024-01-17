@@ -1,0 +1,40 @@
+
+.qiandao-page{
+  .top-info{
+    padding: 40px;
+    font-size: 36px;
+    .week{
+      margin-left: 20px;
+    }
+  }
+  .form-area{
+
+  }
+  .sign-area{
+    margin-top: 100px;
+    padding: 40px;
+  }
+  .creat{
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 28px;
+    line-height: 28px;
+    .creat-btn{
+      text-decoration: underline;
+      color: #AAA;
+    }
+    .contact{
+      margin: 0;
+      display: block;
+      padding: 0;
+      border: none;
+      font-size: 28px;
+      line-height: 28px;
+    }
+  }
+  .modal-cnt{
+    min-height: 42px;
+    text-align: center;
+  }
+}
